@@ -1,7 +1,8 @@
 import fresh_tomatoes
 import media
 
-#create movie object instances of each movie title
+#Instantiate movie object instances of each movie with its own title
+#description, movie poster and youtube link
 
 commando = media.Movie("Commando",
                         "Commando goes after those who took his daughter",
