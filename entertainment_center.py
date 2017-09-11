@@ -1,53 +1,56 @@
 import fresh_tomatoes
 import media
 
-toy_story = media.Movie("Toy Story",
-                        "Story of a boy and his toys that come to life",
-                        "https://upload.wikimedia.org/wikipedia/en/1/13/"
-                        "Toy_Story.jpg",
-                        "https://www.youtube.com/watch?v=KYz2wyBy3kc")
-# print(toy_story.storyline)
+#create movie object instances of each movie title
 
-avatar = media.Movie("Avatar",
-                     "Story of a marine on an alien planet",
+commando = media.Movie("Commando",
+                        "Commando goes after those who took his daughter",
+                        "https://upload.wikimedia.org/wikipedia/en/"
+                        "d/d9/Commandoposter.jpg",
+                        "https://www.youtube.com/watch?v=m264f4tfG2s")
+# print(commando.storyline)
+
+thematrix = media.Movie("The Matrix",
+                     "Dystopian movie of humans in a simulated world",
                      "https://upload.wikimedia.org/wikipedia/en/"
-                     "b/b0/Avatar-Teaser-Poster.jpg",
-                     "https://www.youtube.com/watch?v=5PSNL1qE6VY")
-# print(avatar.storyline)
-# avatar.show_trailer()
+                     "c/c1/The_Matrix_Poster.jpg",
+                     "https://www.youtube.com/watch?v=tGgCqGm_6Hs")
+# print(thematrix.storyline)
+# thematrix.show_trailer()
 
-school_of_rock = media.Movie("School of Rock",
-                             "Using rock music to learn",
-                             "https://upload.wikimedia.org/wikipedia/en/"
-                             "1/11/School_of_Rock_Poster.jpg",
-                             "https://www.youtube.com/watch?v=3PsUJFEBC74")
-# school_of_rock.show_trailer()
+castaway = media.Movie("Castaway",
+                             "Survival film of a man on a desolate island",
+                             "https://upload.wikimedia.org/wikipedia/en"
+                             "/a/a7/Cast_away_film_poster.jpg",
+                             "https://www.youtube.com/watch?v=VfXpFgyAY_U")
+# castaway.show_trailer()
 
-ratatouille = media.Movie("Ratatouille",
-                          "Story of a rat who becomes a chef in Paris",
-                          "https://upload.wikimedia.org/wikipedia/en/5/"
-                          "50/RatatouillePoster.jpg",
-                          "https://www.youtube.com/watch?v=c3sBBRxDAqk")
+braveheart = media.Movie("Braveheart",
+                          "Story of a Scottish freedom fighter",
+                          "https://upload.wikimedia.org/wikipedia/en/"
+                          "5/55/Braveheart_imp.jpg",
+                          "https://www.youtube.com/watch?v=rXYCBBJBj6Y")
 
-midnight_in_paris = media.Movie("Midnight in Paris",
-                                "Going back in time to meet authors",
-                                "https://upload.wikimedia.org/wikipedia/en/"
-                                "9/9f"
-                                "/Midnight_in_Paris_Poster.jpg",
-                                "https://www.youtube.com/watch?v=FAfR8omt-CY")
+grantorino = media.Movie("Gran Torino",
+                         "Korean war vet takes on street gang",
+                         "https://upload.wikimedia.org/wikipedia/en/"
+                         "c/c6/Gran_Torino_poster.jpg",
+                         "https://www.youtube.com/watch?v=RMhbr2XQblk")
 
-hunger_games = media.Movie("Hunger Games",
-                           "A reality show in which contestants kill each "
-                           "other"
-                           "because they are hungry",
-                           "https://upload.wikimedia.org/wikipedia/en/4/42"
-                           "/HungerGamesPoster.jpg",
-                           "https://www.youtube.com/watch?"
-                           "v=FovFG3N_RSU")
+expendables = media.Movie("Expendables",
+                           "Mercenaries tasked to take out a dictator",
+                           "https://upload.wikimedia.org/wikipedia/en/"
+                           "7/76/Expendablesposter.jpg",
+                           "https://www.youtube.com/watch?v=8KtYRALe-xo")
 
 
-movies = [toy_story, avatar, school_of_rock, ratatouille, midnight_in_paris,
-          hunger_games]
+# create array of movie titles for display in html page
+movies = [commando, thematrix, castaway, braveheart, grantorino,
+          expendables]
+
+# call open_movies_page function of fresh_tomatoes class that brings up
+# description, movie poster and trailer of each movie object
 fresh_tomatoes.open_movies_page(movies)
+
 # print(media.Movie.VALID_RATINGS)
 # print(media.Movie.__doc__)
