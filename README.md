@@ -1,18 +1,18 @@
 # Udacity Full Stack nanodegree Project 1 - Movie trailer website
 
-##Source code for a Movie Trailer website with lists of my favorite movies##
+## Source code for a Movie Trailer website with lists of my favorite movies ##
 
 Generated files:
 
 **fresh_tomatoes.html**  - This is the movie listing page
 
-###Source files:###
+### Source files:###
 
-** entertainment_center.py **
+**entertainment_center.py**
  
-** fresh_tomatoes.py **
+**fresh_tomatoes.py**
 
-** media.py **
+**media.py**
 
 _All you need to view the final project is the file fresh_tomatoes.html_
 
