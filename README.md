@@ -6,7 +6,7 @@ Generated files:
 
 **fresh_tomatoes.html**  - This is the movie listing page
 
-### Source files:###
+### Source files: ###
 
 **entertainment_center.py**
  
