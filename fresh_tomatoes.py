@@ -89,6 +89,20 @@ main_page_head = '''
 # The main page layout and title bar
 main_page_content = '''
   <body>
+
+    <!-- Extra code BJs to add logo -->
+      <div class="logoImages">
+        <img src="http://www.foodsafetynews.com/files/2014/02/tomatoes-406.jpg"
+        style="float:left;width:20%;height:132px"/>
+      </div>
+      <div style="display:inline-block; float:left; width:70%; margin:1em">
+        <h4> Movies and TV shows are Certified Fresh and rated highly by our reviewers.
+        The movies below are from our special selection and include the most highly
+        rated Hollywood movies of the last 20 years
+        </h4>
+      </div>
+    <!-- Extra code BJs to add logo ends here -->
+
     <!-- Trailer Video Modal -->
     <div class="modal" id="trailer">
       <div class="modal-dialog">
